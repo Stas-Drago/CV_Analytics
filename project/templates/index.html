@@ -296,7 +296,7 @@
 
       appendMessage('Вы', question, 'user');
 
-      const response = await fetch('/ask_model', {
+      const response = await fetch('/makejob', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question })
