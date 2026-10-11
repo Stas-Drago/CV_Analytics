@@ -1,0 +1,14 @@
+{
+  "dataset_version": "synthetic-risk-ru-v1",
+  "source": "local-qwen-synthetic-only",
+  "status": "training-augmentation-only; not for validation, test, approval, or shadow mode",
+  "rows": 6000,
+  "label_counts": {"low": 2000, "medium": 2000, "high": 2000},
+  "policy_mapping_version": "uca-risk-mapping-v1",
+  "prompt_version": "danger-mlp-synthetic-v1",
+  "generator_version": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+  "seed": 20261010,
+  "dataset_sha256": "generated-locally",
+  "rejections": {},
+  "created_at": "generated-locally"
+}

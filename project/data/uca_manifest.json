@@ -1,0 +1,16 @@
+{
+  "dataset": "UCA (UCF-Crime Annotation)",
+  "source": "https://github.com/jia-wang-11/Surveillance-Video-Understanding-dataSet",
+  "source_commit": "e478cb5b2277c6b7cf6a1dc4691021592003e216",
+  "prepared_counts": {"train": 15677, "validation": 3534, "test": 4331},
+  "prepared_sha256": {
+    "train": "4b263d25951d17355f0e09c43ed91b49bf331f14e0d15174606de9361c2e3024",
+    "validation": "f71b03b0e6303a252b7c70db584ffccdd6bdf04eb702e8a13c283ddf0c0b1c59",
+    "test": "f6443a47ef5b52d22185141beeb3fbe5b36b6f236a9027e363452654a22e927b"
+  },
+  "purpose": "offline training of a description-based risk classifier",
+  "storage": "data/raw/ is intentionally gitignored",
+  "license_gate": "Do not download, train, or deploy before legal approval of dataset terms.",
+  "required_fields": ["text", "category", "source_video"],
+  "split_rule": "Split by source_video before embedding so one video's annotations cannot cross train/validation/test."
+}

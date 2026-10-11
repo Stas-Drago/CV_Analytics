@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: cv-video-surveillance
+Version: 0.1.0
+Requires-Python: >=3.11
+Requires-Dist: fastapi==0.115.6
+Requires-Dist: uvicorn[standard]==0.34.0
+Requires-Dist: pydantic-settings==2.7.1
+Requires-Dist: sqlalchemy==2.0.36
+Requires-Dist: psycopg[binary]==3.2.3
+Requires-Dist: redis==5.2.1
+Requires-Dist: qdrant-client==1.12.1
+Requires-Dist: sentence-transformers==3.3.1
+Requires-Dist: torch==2.5.1
+Requires-Dist: httpx==0.27.2
+Requires-Dist: python-multipart==0.0.20
+Requires-Dist: opencv-python==4.10.0.84
+Provides-Extra: vision
+Requires-Dist: ultralytics==8.3.55; extra == "vision"
+Requires-Dist: ollama==0.4.5; extra == "vision"
+Provides-Extra: dev
+Requires-Dist: pytest==8.3.4; extra == "dev"
+Requires-Dist: ruff==0.8.4; extra == "dev"
+Requires-Dist: mypy==1.13.0; extra == "dev"

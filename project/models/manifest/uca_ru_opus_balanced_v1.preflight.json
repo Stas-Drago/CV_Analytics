@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "minimum_per_class": 50,
+  "splits": {
+    "train": {
+      "rows": 460,
+      "risk_counts": {
+        "low": 151,
+        "medium": 162,
+        "high": 147
+      },
+      "sha256": "693112a4e3870eac5c8c817f0c24cd95b3e6156c3632817af80fc952c3cf0094"
+    },
+    "validation": {
+      "rows": 444,
+      "risk_counts": {
+        "low": 171,
+        "medium": 109,
+        "high": 164
+      },
+      "sha256": "4159de5c186eb5095c0be5e6dd2b122cb2fa9009e0fde16173e9dda841ca837c"
+    },
+    "test": {
+      "rows": 488,
+      "risk_counts": {
+        "low": 180,
+        "medium": 164,
+        "high": 144
+      },
+      "sha256": "fb26e697a8a187367b16c6c1b9249c46b0883ebd4ee51517f3ea4c4524cd7030"
+    }
+  }
+}

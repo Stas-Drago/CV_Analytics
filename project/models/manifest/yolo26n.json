@@ -1,0 +1,9 @@
+{
+  "model": "yolo26n",
+  "ultralytics_version": "8.4.0",
+  "source_url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt",
+  "license": "AGPL-3.0 or Ultralytics Enterprise",
+  "sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "size_bytes": 5544453,
+  "retrieved_at": "2026-10-06T21:59:52.237276+00:00"
+}

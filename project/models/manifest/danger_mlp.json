@@ -1,0 +1,8 @@
+{
+  "version": "REPLACE_AFTER_APPROVED_TRAINING",
+  "sha256": "REPLACE_AFTER_APPROVED_TRAINING",
+  "labels": ["low", "medium", "high"],
+  "architecture": "DangerMLP 768-256-64-3",
+  "mapping_version": "uca-risk-mapping-v1",
+  "threshold_policy_version": "shadow-argmax-v1"
+}
